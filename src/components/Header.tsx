@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ChipIcon, ZapIcon, HomeIcon, InfoIcon } from "lucide-react";
+import { Cpu as ChipIcon, ZapIcon, HomeIcon, InfoIcon } from "lucide-react";
 
 const Header = () => {
   return (

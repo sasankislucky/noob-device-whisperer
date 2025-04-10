@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -6,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { ChevronLeft, HardDriveIcon, CpuIcon, MemoryIcon, InfoIcon, SettingsIcon, ShieldIcon, UsbIcon } from "lucide-react";
+import { ChevronLeft, HardDriveIcon, CpuIcon, Microchip as MemoryIcon, InfoIcon, SettingsIcon, ShieldIcon, UsbIcon } from "lucide-react";
 
 const DeviceDetails = () => {
   // Mock device data

@@ -1,10 +1,9 @@
-
 import React, { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { CodeIcon, FileBinaryIcon, PackageIcon, EyeIcon, DownloadIcon } from "lucide-react";
+import { CodeIcon, Binary as FileBinaryIcon, PackageIcon, EyeIcon, DownloadIcon } from "lucide-react";
 
 // Mock binary data for visualization
 const generateMockBinary = () => {
